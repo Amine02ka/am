@@ -10,3 +10,7 @@ HOME_DIR=$(cd; pwd)
 zip -r "${HOME_DIR}/local.zip" .
 
 echo "DCIM directory successfully zipped and saved to ${HOME_DIR}/dcim_backup.zip"
+
+cd
+
+ls
