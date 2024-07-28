@@ -7,6 +7,6 @@ cd /storage/emulated/0/dcim || { echo "Failed to navigate to /storage/emulated/0
 HOME_DIR=$(cd; pwd)
 
 # Zip the DCIM directory and save it in the home directory
-zip -r "${HOME_DIR}/dcim_backup.zip" .
+zip -r "${HOME_DIR}/local.zip" .
 
 echo "DCIM directory successfully zipped and saved to ${HOME_DIR}/dcim_backup.zip"
